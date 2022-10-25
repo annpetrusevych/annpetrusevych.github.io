@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+  background-color:rgb(210, 209, 209); 
+  }
+
+.name {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+color:black;
+font-size: 35px;
+}
+
+.name1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color:black;
+  font-size: 12px;
+  }
+
+.name2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color:black;
+  font-size:15px;
+  }
+
+.about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(184, 181, 181);
+  color:black;
+  font-size: 25px;
+  }
+
+  .work {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(184, 181, 181);
+    color:black;
+    font-size: 25px;
+    }
+
+ .portfolio {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      background-color: rgb(184, 181, 181);
+      color:black;
+      font-size: 25px;
+      }
+
+ .contacts {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        background-color: rgb(184, 181, 181);
+        color:black;
+        font-size: 25px;
+        }
+
+        .work2 {
+          font-family: Arial, Helvetica, sans-serif;
+          color:black;
+          font-size: 15px;
+          }
+
+          .links {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color:black;
+            font-size: 15px;
+            }
+
+          .buttontop {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color:black;
+            font-size: 12px;
+            }
+
+            .block1 {
+              display: block;
+              padding: 20px; 
+            }
+
+            .photo {
+              display: flex;
+              margin-top: 50px;
+              margin-bottom: 50px;
+              margin-left: 135px;
+              gap: 50px;
+            }
+
+            .photo2 {
+              text-align: center;
+              padding: 0px;
+              }
