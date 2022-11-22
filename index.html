@@ -19,71 +19,72 @@
   </head>
 
   <body>
-    <p class="name">Аня | бренд-дизайнер</p>
-    <p class="name1">
-      тут про неймінг, брендинг і дизайн для малого та середньго бізнесу
-    </p>
-    <ul class="menu">
-      <li>
-        <a href="#about">Хто я?</a>
-      </li>
-      <li>
-        <a href="#work">Моя спеціалізація</a>
-      </li>
-      <li>
-        <a href="#portfolio">Портфоліо</a>
-      </li>
-      <li>
-        <a href="#contacts">Як зі мною сконтактувати?</a>
-      </li>
-    </ul>
-
-    <h2 id="about" class="about">Хто я?</h2>
-    <div class="block1">
-      <p class="photo2"><img src="me.jpg" width="15%" /></p>
-      <div class="block1">
-        <p class="name2">Мене звати Аня, я бренд-дизайнер.</p>
-        <p class="name2">
-          В своїй сфері більше 2 років, за цей час реалізувала 45+
-          дизайн-проектів та провела співпрацю з клієнтами з України, США та
-          Польщі.
-        </p>
-        <p class="name2">
-          Зараз в основному я співпрацюю з українським ринком - малим та
-          середнім бізнесом.
-        </p>
-
-        <div class="photo">
-          <img src="painting.jpg" width="15%" />
-          <img src="work process.jpg" width="15%" />
-          <img src="painting4.jpg" width="15%" />
-          <img src="work process 2.jpg" width="15%" />
-          <img src="painting7.jpg" width="15%" />
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav-name">
+            <a href="#top">
+              <p class="name">Ann Petrusevych</p>
+            </a>
+          </div>
+          <ul class="navlist">
+            <li><a href="#top" class="active">Про мене</a></li>
+            <li><a href="#work">Моя спеціалізація</a></li>
+            <li><a href="#portfolio">Портфоліо</a></li>
+            <li><a href="#contacts">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="about-me">
+        <div class="container">
+          <div class="about-me-content">
+            <div class="about-me-content-left">
+              <img
+                class="about-me-img"
+                src="me.jpg"
+                alt="Ann Petrusevych"
+              />
+            </div>
+            <div class="about-me-content-right">
+              <h1 class="about-me-title">
+                Тут про неймінг, брендинг та дизайн
+              </h1>
+              <p class="about-me-p">Мене звати Аня, я бренд-дизайнер. В своїй сфері більше 2
+                років, за цей час реалізувала 45+ дизайн-проектів та провела
+                співпрацю з клієнтами з України, США та Польщі. Зараз в
+                основному я співпрацюю з українським ринком - малим та середнім
+                бізнесом.</p>
+              <a href="#portfolio" class="about-me-btn"> Портфоліо </a>
+            </div>
+          </div>
         </div>
-        <p class="name2">
-          І чуть не забула - я також студентка Львівської академії мистецтв -
-          тому я дизайнер, який вміє не лише малювати в програмах, а і на
-          полотнах!
-        </p>
-        <p class="name2">Ось підтвердження:)</p>
-      </div>
-
-      <h2 id="work" class="work">Моя спеціалізація</h2>
-      <div class="block1">
-        <p class="name2">
-          Я займаюсь брендингом компаній, який включає в себе:
-        </p>
-        <ul class="work2">
-          <li>неймінг - розробку назви вашого бренду чи компанії</li>
-          <li>логотип</li>
-          <li>
-            фірмову айдентику - дизайн поліграфії та інших носіїв, таких як
-            брендований одяг, пакети, стаканчики тощо
-          </li>
-          <li>рекламний дизайн</li>
-          <li>візуальне упакування соц мереж</li>
-        </ul>
-      </div>
+      </section>
+      <section id="work" class="work" >
+        <div class="container">
+          <div class="boxwork">
+            <h2 class="work-h2">Моя спеціалізація</h2>
+            <p class="work-p">
+                Я займаюсь брендингом компаній, який включає в себе: 
+                неймінг - розробку назви вашого бренду чи компанії; логотип, фірмову айдентику - дизайн поліграфії та інших носіїв, таких як брендований одяг, пакети, стаканчики тощо; рекламний дизайн; візуальне упакування соц мереж.
+            </p>
+            <div class="photo">
+                <img src="painting.jpg" class="work-photo"/>
+                <img src="work process.jpg" class="work-photo"/>
+                <img src="painting4.jpg" class="work-photo"/>
+                <img src="work process 2.jpg" class="work-photo"/>
+                <img src="painting7.jpg"class="work-photo"/>
+            </div>
+            <p class="work-p2">
+                І чуть не забула - я також студентка Львівської академії мистецтв -
+                тому я дизайнер, який вміє не лише малювати в програмах, а і на
+                полотнах!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
 
       <h2 id="portfolio" class="portfolio">Портфоліо</h2>
       <div class="block1">
