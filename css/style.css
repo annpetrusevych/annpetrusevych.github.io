@@ -30,11 +30,20 @@ html {
 
 .header {
   background-color: rgb(184, 181, 181);
+  position: fixed;
+  top: 0;
   padding: 10px 0;
+  width: 100%;
+}
+
+.container-nav {
+  max-width: 1250px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -57,61 +66,86 @@ html {
   display: flex;
   flex-direction: row;
   column-gap: 40px;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
   white-space: nowrap;
 }
-
+.navlist a:hover {
+  color: #fff;
+}
 /* ABOUT-ME */
 
 .about-me {
-  background-color: rgb(210, 209, 209);
+  background-color: #d2d1d1;
   min-height: 100vh;
 }
 .about-me-content {
   display: flex;
-  /* justify-content: space-between; */
-  gap: 100px;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 140px;
+  /* : 100px; */
+  align-items: center;
+  padding-top: 200px;
 }
-
+.about-me-content-right {
+  max-width: 1000px;
+}
 .about-me-img {
-  max-width: 290px;
+  max-width: 300px;
 }
 
 .about-me-title {
-  max-width: 700px;
-  font-size: 35px;
+  max-width: 1000px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 .about-me-p {
-  max-width: 428px;
-  color: gray;
-  margin-bottom: 60px;
+  max-width: 700px;
+  color: #2f2f2f;
+  margin-bottom: 30px;
   font-size: 16px;
 }
 
 .about-me-btn {
   display: inline-block;
   background-color: rgb(184, 181, 181);
-  padding: 23px 70px;
-  font-size: 30;
+  padding: 20px 80px;
+  font-size: 25px;
   font-weight: 700;
   color: #fff;
 }
 
 /* work */
 .work {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #d2d1d1;
+  /* background-color: aqua; */
+  color: black;
+  font-size: 25px;
   min-height: 100vh;
 }
 
 .boxwork {
-  padding: 100 0;
+  padding: 120px 0;
 }
 .work-h2 {
-  padding-top: 90px;
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 6px 0;
+  background-color: #b8b5b5;
+}
+.work-list {
+  padding-top: 30px;
+
+  /* list-style: circle; */
+}
+.list {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f2f2f;
 }
 .work-p {
   font-size: 18px;
@@ -129,7 +163,7 @@ html {
   max-width: 800px;
   text-align: center;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 40px;
   display: block;
   color: #000;
   font-weight: 400;
@@ -137,7 +171,7 @@ html {
 .photo {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 50px;
 
   /* gap: 50px; */
 }
@@ -169,21 +203,15 @@ html {
   font-size: 25px;
 }
 
-.work {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  background-color: rgb(184, 181, 181);
-  color: black;
-  font-size: 25px;
-}
+/* Portfolio */
 
 .portfolio {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
-  background-color: rgb(184, 181, 181);
+  background-color: #d2d1d1;
   color: black;
+  min-height: 100vh;
   font-size: 25px;
 }
 
@@ -195,7 +223,34 @@ html {
   color: black;
   font-size: 25px;
 }
+.portfolio-h2-2 {
+  margin-top: 40px;
+  font-size: 16px;
+}
+.photo-portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 
+  /* gap: 50px; */
+}
+.portfolio-photo {
+  width: 200px;
+  height: auto;
+}
+.portfolio-p2 {
+  font-size: 16px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 95px;
+  display: block;
+  color: #2f2f2f;
+  font-weight: 400;
+}
+.portfolio-link {
+  font-weight: 700;
+}
 .work2 {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -205,9 +260,28 @@ html {
 .links {
   text-align: center;
   color: black;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 16px;
+}
+/* Contacts */
+.contacts {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #D2D1D1;
+  color: black;
+  min-height: 100vh;
+  font-size: 25px;
 }
 
+.photo-contacts {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  margin-top: 50px;
+
+  /* gap: 50px; */
+}
 .buttontop {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
