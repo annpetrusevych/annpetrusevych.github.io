@@ -177,30 +177,39 @@ html {
 }
 
 .work-photo {
+  /* width: 200px; */
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.gallery-item {
+  display: flex;
+  flex-basis: 17%;
+}
+
+.gallery a {
+  display: flex;
+}
+
+.gallery img {
   width: 200px;
 }
 
-.name1 {
-  font-family: Arial, Helvetica, sans-serif;
+.lg-outer.lg-components-open:not(.lg-zoomed) .lg-sub-html {
+  opacity: 1;
+  transition: opacity 0.2s ease-out 0.15s;
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  padding: 10px 40px;
   text-align: center;
-  color: black;
-  font-size: 12px;
-}
-
-.name2 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: black;
-  font-size: 15px;
-}
-
-.about {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  background-color: rgb(184, 181, 181);
-  color: black;
-  font-size: 25px;
+  z-index: 1080;
+  opacity: 0;
+  transition: opacity 0.2s ease-out 0s;
 }
 
 /* Portfolio */
@@ -268,7 +277,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
-  background-color: #D2D1D1;
+  background-color: #d2d1d1;
   color: black;
   min-height: 100vh;
   font-size: 25px;
@@ -278,10 +287,30 @@ html {
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
   margin-top: 50px;
 
   /* gap: 50px; */
 }
+
+.a-tel {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 70px;
+  width: 100px;
+  background-color: rgb(184, 181, 181);
+}
+
+.img-tel {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 56px;
+  width: 130px;
+  background-color: rgb(184, 181, 181);
+}
+
 .buttontop {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;

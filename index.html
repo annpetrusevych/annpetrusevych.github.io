@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Аня | бренд-дизайнер</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"
+    />
 
     <meta
       name="og:description"
@@ -75,12 +79,39 @@
               </ul>
             </div>
 
-            <div class="photo">
+            <!-- <div class="photo">
                 <img src="painting.jpg" class="work-photo"/>
                 <img src="work process.jpg" class="work-photo"/>
                 <img src="painting4.jpg" class="work-photo"/>
                 <img src="work process 2.jpg" class="work-photo"/>
                 <img src="painting7.jpg"class="work-photo"/>
+            </div> -->
+            <div class="gallery" id="lightgallery">
+              <div class="gallery-item">
+                <a href="painting.jpg" target="_blank">
+                  <img src="painting.jpg" alt="a"  />
+                </a>
+              </div>
+              <div class="gallery-item">
+                <a href="work process.jpg" target="_blank">
+                  <img src="work process.jpg" alt="a"   />
+                </a>
+              </div>
+              <div class="gallery-item">
+                <a href="painting4.jpg" target="_blank">
+                  <img src="painting4.jpg"  alt="a" />
+                </a>
+              </div>
+              <div class="gallery-item">
+                <a href="work process 2.jpg" target="_blank">
+                  <img src="work process 2.jpg"alt="a"  />
+                </a>
+              </div>
+              <div class="gallery-item">
+                <a href="painting7.jpg" target="_blank">
+                  <img src="painting7.jpg" alt="a"  />
+                </a>
+              </div>
             </div>
             <p class="work-p2">
               І чуть не забула - я також студентка Львівської академії мистецтв -
@@ -124,11 +155,25 @@
               </ul>
             </div>
             <div class="photo-contacts">
-                <img src="instagram.png" class=""/>
+              <a href="https://instagram.com/ptrsvch?utm_medium=copy_link" target="_blank" class="a-tel">
+                <img src="instagram.png" class="">
+              </a>
+              <a href="0634043602" target="_blank" class="img-tel">
                 <img src="telephone.png" />
-                <img src="telegram.png" />
+              </a>
+              <a href="https://t.me/ptrsvch" target="_blank"class="a-tel" >
+                <img src="telegram.png"/>
+              </a>
             </div>
       </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"),
+      {
+        selector: ".gallery-item a"
+      }
+      );
+    </script>
   </body>
 </html>
