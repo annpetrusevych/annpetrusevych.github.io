@@ -239,6 +239,7 @@ html {
 .photo-portfolio {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
   margin-top: 50px;
 
   /* gap: 50px; */
@@ -247,12 +248,21 @@ html {
   width: 200px;
   height: auto;
 }
+.portfolio-photo-i {
+  width: 300px;
+  height: auto;
+}
+.portfolio-photo-o {
+  width: 200px;
+  height: auto;
+}
+
 .portfolio-p2 {
   font-size: 16px;
   max-width: 800px;
   text-align: center;
   margin: 0 auto;
-  padding-top: 95px;  
+  padding-top: 95px;
   display: block;
   color: #2f2f2f;
   font-weight: 400;

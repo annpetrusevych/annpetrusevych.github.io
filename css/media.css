@@ -31,6 +31,18 @@
     padding-top: 75px;
   } */
 }
+.portfolio-photo {
+  width: 150px;
+  height: auto;
+}
+.portfolio-photo-i {
+  width: 150px;
+  height: auto;
+}
+.portfolio-photo-o {
+  width: 150px;
+  height: auto;
+}
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .container-nav {
@@ -63,6 +75,18 @@
 
   .portfolio-p2 {
     padding-top: 75px;
+  }
+  .portfolio-photo {
+    width: 150px;
+    height: auto;
+  }
+  .portfolio-photo-i {
+    width: 150px;
+    height: auto;
+  }
+  .portfolio-photo-o {
+    width: 150px;
+    height: auto;
   }
 }
 
@@ -102,6 +126,20 @@
   .about-me-content-right .about-me-p {
     max-width: 350px;
   }
+
+  .portfolio-photo {
+    width: 150px;
+    height: auto;
+  }
+  .portfolio-photo-i {
+    width: 150px;
+    height: auto;
+  }
+  .portfolio-photo-o {
+    width: 150px;
+    height: auto;
+  }
+
 
   .boxwork {
     padding: 60px 0;
@@ -182,6 +220,14 @@
     padding-top: 35px;
   }
   .portfolio-photo {
+    width: 150px;
+    height: auto;
+  }
+  .portfolio-photo-i {
+    width: 150px;
+    height: auto;
+  }
+  .portfolio-photo-o {
     width: 150px;
     height: auto;
   }
@@ -279,6 +325,14 @@
     width: 250px;
     height: auto;
   }
+  .portfolio-photo-i {
+    width: 300px;
+    height: auto;
+  }
+  .portfolio-photo-o {
+    width: 220px;
+    height: auto;
+  }
 
   .photo-contacts {
     display: flex;
@@ -300,12 +354,5 @@
     justify-content: space-between;
     margin-top: 50px;
   }
-  .portfolio-photo-i {
-    width: 300px;
-    height: auto;
-  }
-  .portfolio-photo-o {
-    width: 220px;
-    height: auto;
-  }
+
 }
