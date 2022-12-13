@@ -80,27 +80,27 @@
             </div>
             <div class="gallery" id="lightgallery">
               <div class="gallery-item">
-                <a href="painting.jpg" target="_blank">
+                <a href="painting.jpg">
                   <img src="painting.jpg" alt="a"  />
                 </a>
               </div>
               <div class="gallery-item">
-                <a href="work process.jpg" target="_blank">
+                <a href="work process.jpg" >
                   <img src="work process.jpg" alt="a"   />
                 </a>
               </div>
               <div class="gallery-item">
-                <a href="painting4.jpg" target="_blank">
+                <a href="painting4.jpg" >
                   <img src="painting4.jpg"  alt="a" />
                 </a>
               </div>
               <div class="gallery-item">
-                <a href="work process 2.jpg" target="_blank">
+                <a href="work process 2.jpg">
                   <img src="work process 2.jpg"alt="a"  />
                 </a>
               </div>
               <div class="gallery-item">
-                <a href="painting7.jpg" target="_blank">
+                <a href="painting7.jpg">
                   <img src="painting7.jpg" alt="a"  />
                 </a>
               </div>
@@ -125,9 +125,21 @@
             </div>
             <p class="portfolio-h2-2">Саме з проектами в цих нішах ви можете ознайомитись нижче:</p>
             <div class="photo-portfolio">
-                <img src="logo1.png" class="portfolio-photo-o"/>
-                <img src="logo2.png" class="portfolio-photo-i"/>
-                <img src="logo3.png" class="portfolio-photo"/>
+              <div class="portfolio-photo-o">
+                <a href="https://www.behance.net/gallery/150427713/development-of-a-corporate-style-for-a-clinic" target="_blank">
+                  <img src="logo1.png"/>
+                </a>
+              </div>
+              <div class="portfolio-photo-i">
+                <a href="https://www.behance.net/gallery/134280685/brand-identity-for-confectionery" target="_blank">
+                  <img src="logo2.png"/>
+                </a>
+              </div>
+              <div class="portfolio-photo-v">
+                <a href="https://www.behance.net/gallery/147452621/logo-development-for-an-accessories-brand" target="_blank">
+                  <img src="logo3.png"/>
+                </a>
+              </div>
             </div>
             <p class="portfolio-p2">
               Щоб ознайомитись з моїм повним портфоліо, тисніть сюди:
@@ -160,6 +172,15 @@
       </section>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery")
+      {
+        selector: ".gallery-item a"
+      }
+      );
+    </script>
+
+
     <script type="text/javascript">
       lightGallery(document.getElementById("lightgallery"),
       {
